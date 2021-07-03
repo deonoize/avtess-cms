@@ -1,0 +1,35 @@
+{
+    "name": "deonoize/avtess-cms",
+    "description": "Package for create cms from Laravel-5",
+    "type": "library",
+    "license": "MIT",
+	"keywords": [
+        "laravel",
+        "widgets"
+    ],
+    "authors": [
+        {
+            "name": "deonoize",
+            "email": "mr.deo.noize@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "version": "1.0.0",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2.0",
+        "illuminate/support": "^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Deonoize\\AvtessCMS\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Deonoize\\AvtessCMS\\AvtessCMSServiceProvider"
+            ]
+        }
+    }
+}
